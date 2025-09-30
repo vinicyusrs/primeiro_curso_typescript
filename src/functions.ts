@@ -34,7 +34,7 @@ const log2 = (message: string): void => {
 
 const value = sum(2, 3);
 
-// objects em funções
+// objects em funções, interface com funções
 interface MathFunc1 {
   // toda função que chamar a interface tem que enviar dois parametros e receber um
   (x: number, y: number): number;

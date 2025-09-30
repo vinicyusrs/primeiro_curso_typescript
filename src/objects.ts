@@ -86,7 +86,7 @@ const newAuthor: UserInterface & AuthorInterface = {
 type Grand = number | string;
 const grade: Grand = 1;
 
-// Objeto com função
+// Objeto com função tanto type quanto interface
 type User2 = {
   firstName: string;
   age: number;
