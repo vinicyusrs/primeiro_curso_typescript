@@ -19,6 +19,15 @@ class Person implements IPerson {
   }
 }
 
+// jeito diferente de atribuir valores nos atributos// mesma coisa do classe acima, refaturado
+class PersonRefatc {
+  constructor(
+    readonly id: number,
+    protected name: string, // só é acessado na classe ou subclasse igual java
+    private age: number // só na classe igual java
+  ) {}
+}
+
 class Employee extends Person {
   constructor(id: number, name: string, age: number) {
     super(id, name, age);
